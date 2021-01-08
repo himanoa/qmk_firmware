@@ -607,6 +607,7 @@ enum quantum_keycodes {
 #define RWIN(kc) RGUI(kc)
 
 #define HYPR(kc) (QK_LCTL | QK_LSFT | QK_LALT | QK_LGUI | (kc))
+#define C_S(kc) (QK_LCTL | QK_LSFT | (kc))
 #define MEH(kc) (QK_LCTL | QK_LSFT | QK_LALT | (kc))
 #define LCAG(kc) (QK_LCTL | QK_LALT | QK_LGUI | (kc))
 #define SGUI(kc) (QK_LGUI | QK_LSFT | (kc))
